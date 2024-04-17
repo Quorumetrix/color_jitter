@@ -35,7 +35,7 @@ color_wheel_plot(n_categories=8, custom_palette=nightingale_palette, color_jitte
 
 ```
 
-![Color wheel plot](plots\nightingale_colorwheel_jitter.png)
+![Color wheel plot](plots/nightingale_colorwheel_jitter.png)
 
 
 Or use it right away with the iris dataset:
@@ -67,6 +67,6 @@ colorjitter_scatterplot(iris_df, 'sepal_length', 'sepal_width', 'species', jitte
                         y_label='Sepal Width (cm)')
 
 ```
-![Iris dataset plotted with color jitter](plots\iris_color_jitter.png)
+![Iris dataset plotted with color jitter](plots/iris_color_jitter.png)
 
 See the Jupyter notebook for more advanced usage.
